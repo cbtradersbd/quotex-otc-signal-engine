@@ -1,7 +1,7 @@
 # Quotex OTC Signal Engine
 import requests
 
-API_URL = "https://api1.api.cbtraderbd.xyz/docs"
+API_URL = "https://api1.api.cbtradersbd.com/docs"
 
 def generate_otc_signal(pair="USDINR_otc"):
     print(f"Analyzing multi-indicator momentum for Quotex {pair}...")
